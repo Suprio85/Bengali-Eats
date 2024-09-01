@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="571.0" prefWidth="654.0" style="-fx-background-radius: 0;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.myapp.LoginController">
+
+    <!-- Login Form -->
+    <VBox alignment="CENTER" spacing="10">
+        <GridPane>
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+        <GridPane>
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </VBox>
+      <TextField fx:id="usernameField" layoutX="399.0" layoutY="76.0" prefHeight="25.0" prefWidth="186.0" style="-fx-background-radius: 20;" />
+      <PasswordField fx:id="passwordField" layoutX="399.0" layoutY="127.0" prefHeight="25.0" prefWidth="186.0" style="-fx-background-radius: 20;" />
+      <Label layoutX="321.0" layoutY="76.0" prefHeight="25.0" prefWidth="65.0" text="Username:">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+     <Button layoutX="441.0" layoutY="188.0" onAction="#handleLogin" prefHeight="25.0" prefWidth="77.0" style="-fx-background-radius: 30;" text="Login" />
+      <Label layoutX="327.0" layoutY="130.0" prefHeight="20.0" prefWidth="77.0" text="Password:">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+     <Label alignment="CENTER" layoutX="423.0" layoutY="20.0" prefHeight="35.0" prefWidth="86.0" style="-fx-background-radius: 30;" styleClass="title-label" text="Login">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font>
+   </Label>
+   <Button layoutX="405.0" layoutY="233.0" mnemonicParsing="false" onAction="#handelResturantLogin" prefHeight="25.0" prefWidth="149.0" style="-fx-background-radius: 30;" text="Login As Resturant" />
+   <AnchorPane layoutY="1.0" prefHeight="571.0" prefWidth="252.0" style="-fx-background-color: Navy;">
+      <children>
+         <Label alignment="CENTER" layoutX="26.0" layoutY="98.0" prefHeight="67.0" prefWidth="179.0" text="Bengali Eats" textFill="#f2ecec">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Label>
+         <Line endX="142.00001525878906" endY="-1.52587890625E-5" layoutX="110.0" layoutY="166.0" scaleY="2.0" startX="-110.00000762939453" startY="-1.5228986740112305E-5">
+            <stroke>
+               <LinearGradient endX="0.6593059936908517" endY="1.0" startX="0.47318611987381703" startY="0.16719240495459137">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </stroke>
+         </Line>
+      </children>
+   </AnchorPane>
+   <ImageView fitHeight="35.0" fitWidth="43.0" layoutX="274.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@Images/user_1077012.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="35.0" fitWidth="43.0" layoutX="274.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@Images/lock_891399.png" />
+      </image>
+   </ImageView>
+
+    <!-- CSS Styles -->
+</AnchorPane>

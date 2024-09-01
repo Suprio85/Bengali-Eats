@@ -1,0 +1,13 @@
+1,KFC,4.3,$$$,98531,Chicken,Fast Food,Family Meals,1111
+2,IHOP,4.3,$$,77494,Breakfast and Brunch,Family Meals,Burgers,2222
+3,Starbucks,4.9,$,99218,Coffee and Tea,Breakfast and Brunch,Bakery,3333
+4,McDonalds,4.7,$,98346,Burgers,Fast Food,,4444
+5,Sultans Dine,4.6,$$,87621,chicken,Mutton,,5555
+6,Kbc,5.0,$$$,56,fgd,rfdg,f,6666
+7,BFC,3.0,$,6767,geug,ehfueg,,8989
+8,nfc,2.0,$,67767,wj,,,9898
+9,Shara,4.0,$,jh,kh,kjh,lk,131
+10,mim,3.0,$,67,sh,h,,131
+11,Nanna Biriyani,5.0,$,8888,chicken,mutton,,1010
+12,Biriyani House,5.0,$,123,heap,,,123
+13,NFK,3.0,$,8888,chicken,Beef,mutton,1010
